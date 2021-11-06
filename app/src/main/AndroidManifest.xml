@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.registration">
+    package="com.example.littledaffy">
 
     <application
         android:allowBackup="true"
@@ -17,6 +17,7 @@
 
         </activity>
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".DetailsActivity" />
         <activity android:name=".MainActivity"></activity>
     </application>
 

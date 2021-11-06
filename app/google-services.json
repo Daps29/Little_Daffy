@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "417998320479",
+    "firebase_url": "https://littledaffy-802a2-default-rtdb.firebaseio.com",
+    "project_id": "littledaffy-802a2",
+    "storage_bucket": "littledaffy-802a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417998320479:android:fbe41c1cdd0f31201bbcea",
+        "android_client_info": {
+          "package_name": "com.example.littledaffy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417998320479-4lod7c6bdrtoc05vauop80ngp0pfbbc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBs-WtLNT7dJy_YXGsoPFZgQwyLArzFD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417998320479-4lod7c6bdrtoc05vauop80ngp0pfbbc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417998320479:android:9f7fe80be448adb11bbcea",
+        "android_client_info": {
+          "package_name": "com.example.registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417998320479-4lod7c6bdrtoc05vauop80ngp0pfbbc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBs-WtLNT7dJy_YXGsoPFZgQwyLArzFD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417998320479-4lod7c6bdrtoc05vauop80ngp0pfbbc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417998320479:android:e35fad045a5a90331bbcea",
+        "android_client_info": {
+          "package_name": "com.labawsrh.aws.introscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417998320479-4lod7c6bdrtoc05vauop80ngp0pfbbc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBs-WtLNT7dJy_YXGsoPFZgQwyLArzFD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417998320479-4lod7c6bdrtoc05vauop80ngp0pfbbc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
