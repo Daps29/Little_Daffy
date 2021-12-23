@@ -29,23 +29,15 @@ public class MainActivity extends AppCompatActivity {
 
         List<PopularFood> popularFoodList = new ArrayList<>();
 
-        popularFoodList.add(new PopularFood("Float Cake Vietnam", "$7.05", R.drawable.popularfood1));
-        popularFoodList.add(new PopularFood("Chiken Drumstick", "$17.05", R.drawable.popularfood2));
-        popularFoodList.add(new PopularFood("Fish Tikka Stick", "$25.05", R.drawable.popularfood3));
-        popularFoodList.add(new PopularFood("Float Cake Vietnam", "$7.05", R.drawable.popularfood1));
-        popularFoodList.add(new PopularFood("Chiken Drumstick", "$17.05", R.drawable.popularfood2));
-        popularFoodList.add(new PopularFood("Fish Tikka Stick", "$25.05", R.drawable.popularfood3));
+        popularFoodList.add(new PopularFood("Firulais", "7.05", R.drawable.ac));
+        popularFoodList.add(new PopularFood("Cat", "17.05", R.drawable.c));
 
         setPopularRecycler(popularFoodList);
 
 
         List<AsiaFood> asiaFoodList = new ArrayList<>();
-        asiaFoodList.add(new AsiaFood("Chicago Pizza", "$20", R.drawable.asiafood1, "4.5", "Briand Restaurant"));
-        asiaFoodList.add(new AsiaFood("Straberry Cake", "$25", R.drawable.asiafood2, "4.2", "Friends Restaurant"));
-        asiaFoodList.add(new AsiaFood("Chicago Pizza", "$20", R.drawable.asiafood1, "4.5", "Briand Restaurant"));
-        asiaFoodList.add(new AsiaFood("Straberry Cake", "$25", R.drawable.asiafood2, "4.2", "Friends Restaurant"));
-        asiaFoodList.add(new AsiaFood("Chicago Pizza", "$20", R.drawable.asiafood1, "4.5", "Briand Restaurant"));
-        asiaFoodList.add(new AsiaFood("Straberry Cake", "$25", R.drawable.asiafood2, "4.2", "Friends Restaurant"));
+        asiaFoodList.add(new AsiaFood("Perros", "20", R.drawable.ac, "4.5", "Categoria"));
+        asiaFoodList.add(new AsiaFood("Gatos", "20", R.drawable.c, "4.2", "Categoria"));
 
         setAsiaRecycler(asiaFoodList);
 

@@ -29,7 +29,6 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/input_bg"
-        app:drawableLeftCompat="@drawable/ic_persona"
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Username"
@@ -40,9 +39,11 @@
         android:paddingBottom="10dp"
         android:textColor="@color/letras"
         android:textColorHint="@color/letras"
+        app:drawableLeftCompat="@drawable/ic_persona"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo" />
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/inputEmail"

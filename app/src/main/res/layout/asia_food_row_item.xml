@@ -23,7 +23,7 @@
             android:adjustViewBounds="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/asiafood1" />
+            app:srcCompat="@drawable/ac" />
 
         <TextView
             android:id="@+id/name"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="serif"
-            android:text="Float Cake Vietnam"
+            android:text="Firulais"
             android:textColor="#091020"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="@+id/restorant_name"
