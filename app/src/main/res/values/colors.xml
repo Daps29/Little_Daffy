@@ -8,4 +8,9 @@
     <color name="letras">#808285</color>
     <color name="fondo">#f5909d</color>
 
+    <color name="primary">#f5909d</color>
+    <color name="secundary">#40BA89</color>
+    <color name="plomo">#808285</color>
+    <color name="lila">#7169b0</color>
+
 </resources>

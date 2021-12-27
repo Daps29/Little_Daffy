@@ -1,7 +1,12 @@
 package com.example.littledaffy;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -34,6 +39,16 @@ public class MainActivity extends AppCompatActivity {
 
         setPopularRecycler(popularFoodList);
 
+        Button button_walk1 = (Button) findViewById(R.id.button_walk1);
+
+        button_walk1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, OrganizacionesActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         List<AsiaFood> asiaFoodList = new ArrayList<>();
         asiaFoodList.add(new AsiaFood("Perros", "20", R.drawable.ac, "4.5", "Categoria"));
@@ -65,26 +80,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Hi all,
-    // Today we are going to build a food app.
-    // so the first things frist lets add font and image assets
-    // so lets see the design
-    // now we will setup recyclerview
-    // first we make a model class then adapter class.
-    // now we will create a recyclerview row item layout file
-    // so our adapter class is ready
-    // now we will bind data with recyclerview
-    // so we have successfully setup popular recyclerview
-    // now same setup we need to do for asia food
-    // will make model class then adapter and setup recyclerview
-    // so lets do it fast.
-    // so asia food setup done.
-    // Now we will setup Bottom app bar
-    // bottom app bar setup done if you want you can increase menu item in menu file
-    // now we will setup details activity and on click listener in recyclerview row item
-    // so this tutorial has been completed if you have any
-    // question and query please do comment
-    // Like share and subscribe
-    // Thankyou for watching
-    // see you in the next tutorial
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(false);
+        builder.setIcon(getResources().getDrawable(R.drawable.a));
+        builder.setTitle("AVISO");
+        builder.setMessage("¿Desea salir de la Aplicación?");
+        builder.setPositiveButton("Sí, salir", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //if user pressed "yes", then he is allowed to exit from application
+                System.exit(0);
+            }
+        });
+        builder.setNegativeButton("No",new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //if user select "No", just cancel this dialog and continue with app
+                dialog.cancel();
+            }
+        });
+        AlertDialog alert=builder.create();
+        alert.show();
+    }
 }
