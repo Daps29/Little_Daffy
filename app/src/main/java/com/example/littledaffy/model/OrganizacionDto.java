@@ -111,6 +111,14 @@ public class OrganizacionDto {
         this.foto = foto_lista;
     }
 
+    public String getFoto_portada() {
+        return foto_portada;
+    }
+
+    public void setFoto_portada(String foto_portada) {
+        this.foto_portada = foto_portada;
+    }
+
     public int getEstado_organizacion() {
         return estado_organizacion;
     }

@@ -76,7 +76,8 @@ public class OrganizacionAdapter extends RecyclerView.Adapter<OrganizacionAdapte
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(holder.context.getApplicationContext(), VerOrganizacionesActivity.class);
-                intent.putExtra("platoId", currentItem.getId_organizacion());
+                intent.putExtra("id_organizacion", currentItem.getId_organizacion());
+                intent.putExtra("direccion", currentItem.getDireccion());
                 holder.context.startActivity(intent);
             }
         });

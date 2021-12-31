@@ -34,11 +34,16 @@
         <entry key="..\:/Users/aleda/Desktop/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_register.xml" value="0.21875" />
         <entry key="..\:/Users/aleda/Desktop/Nueva carpeta/Little_Daffy/app/src/main/res/layout/asia_food_row_item.xml" value="0.21875" />
         <entry key="..\:/Users/aleda/Desktop/Nueva carpeta/Little_Daffy/app/src/main/res/layout/popular_food_row_item.xml" value="0.21875" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/drawable/btn_bg.xml" value="0.15197368421052632" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/drawable/ic_marcador_foreground.xml" value="0.15197368421052632" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/drawable/icon_reloj.xml" value="0.23697916666666666" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_login.xml" value="0.125" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_main.xml" value="0.13" />
-        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_organizaciones.xml" value="0.125" />
-        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_ver_organizacion.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_maps.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_organizaciones.xml" value="0.12" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/activity_ver_organizacion.xml" value="0.18" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/layout/card_organizaciones.xml" value="0.33" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/mipmap-anydpi-v26/ic_marcador.xml" value="0.15197368421052632" />
       </map>
     </option>
   </component>

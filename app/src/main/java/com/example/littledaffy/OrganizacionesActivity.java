@@ -1,12 +1,14 @@
 package com.example.littledaffy;
 
 import android.content.DialogInterface;
+import android.graphics.PorterDuff;
 import android.location.Location;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -37,8 +39,12 @@ public class OrganizacionesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_organizaciones);
 
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setNavigationIcon(R.drawable.icon_back);
+        toolbar.getNavigationIcon().setColorFilter(getResources().getColor(R.color.secundary), PorterDuff.Mode.SRC_ATOP);
+        setSupportActionBar(toolbar);
 
-        /**Para la lista organizaciones*/
+        //Para la lista organizaciones
         rv_subcategoria = (RecyclerView) findViewById(R.id.rv_organizaciones);
         rv_subcategoria.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
@@ -51,17 +57,18 @@ public class OrganizacionesActivity extends AppCompatActivity {
         organizacionAdapter = new OrganizacionAdapter(this,organizacionDtoList);
         rv_subcategoria.setAdapter(organizacionAdapter);
 
-        organizacionDtoList.clear();
+
 
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                    organizacionDtoList.clear();
                     OrganizacionDto organizacionDto = dataSnapshot.getValue(OrganizacionDto.class);
                     int estado = organizacionDto.getEstado_organizacion();
                     if (estado == 1) {
                         organizacionDtoList.add(organizacionDto);
-                    }else {
+                    }else{
                         return;
                     }
 
