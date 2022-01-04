@@ -40,7 +40,7 @@
                 android:orientation="vertical"
                 app:layout_collapseMode="parallax">
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/perfilChef"
+                    android:id="@+id/perfil"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginRight="30dp"
@@ -188,6 +188,16 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/icon_whatsapp"
+        android:contentDescription="Add"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/primary"/>
 
 
 

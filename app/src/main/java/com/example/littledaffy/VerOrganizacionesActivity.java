@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.PorterDuff;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +32,7 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -51,6 +53,8 @@ public class VerOrganizacionesActivity extends AppCompatActivity implements OnMa
     ImageView fotoPortada;
     Double latitude, longitude;
     String nombremarcador, iddireccion;
+    FloatingActionButton whatsapp;
+    String celOrga;
 
     private GoogleMap mMap;
     private ActivityMapsBinding binding;
@@ -90,6 +94,7 @@ public class VerOrganizacionesActivity extends AppCompatActivity implements OnMa
         direccionLiteral = (TextView) findViewById(R.id.direccionLiteral);
         profile_image = (CircleImageView) findViewById(R.id.profile_image);
         fotoPortada = (ImageView) findViewById(R.id.fotoPortadaOrganizacion);
+        whatsapp = (FloatingActionButton) findViewById(R.id.whatsapp);
 
         //RECUPERAMOS INFORMACION PARA LLENAR EL ACTIVITY
         organizacionInfo.addValueEventListener(new ValueEventListener() {
@@ -100,6 +105,7 @@ public class VerOrganizacionesActivity extends AppCompatActivity implements OnMa
                 descripcionOrganizacion.setText(organizacionDto.getDescripcion());
                 horario.setText(organizacionDto.getHoraen() + " " + organizacionDto.getHorafin());
                 direccionLiteral.setText(organizacionDto.getDireccion_literal());
+                celOrga = organizacionDto.getContacto()+"";
                 Picasso.get().load(organizacionDto.getFoto()).placeholder(R.drawable.a).into(profile_image, new Callback() {
                     @Override
                     public void onSuccess() {
@@ -127,6 +133,27 @@ public class VerOrganizacionesActivity extends AppCompatActivity implements OnMa
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+            }
+        });
+
+        //BOTON WHATSAPP
+        whatsapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String celOrganizacion = celOrga;
+                if (celOrganizacion.substring(0, 3).equals("591")) {
+                    celOrganizacion = celOrganizacion.substring(3);
+                }
+
+                if (celOrganizacion.substring(0, 4).equals("+591")) {
+                    celOrganizacion = celOrganizacion.substring(4);
+                }
+
+                String mensaje = "Buenas!Soy repartidor de la App Ayni Chef, tengo la siguiente duda: ";
+                String url = "https://wa.me/591" + celOrganizacion + "?text=" + mensaje;
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
             }
         });
 
