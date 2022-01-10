@@ -45,7 +45,7 @@ public class OrganizacionAdapter extends RecyclerView.Adapter<OrganizacionAdapte
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public OrganizacionAdapter(OrganizacionesActivity organizacionesActivity, ArrayList<OrganizacionDto> myDataset) {
+    public OrganizacionAdapter(Context organizacionesActivity, ArrayList<OrganizacionDto> myDataset) {
         data = myDataset;
     }
 

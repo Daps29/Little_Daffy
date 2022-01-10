@@ -35,18 +35,33 @@
         <entry key="..\:/Users/aleda/Desktop/Nueva carpeta/Little_Daffy/app/src/main/res/layout/asia_food_row_item.xml" value="0.21875" />
         <entry key="..\:/Users/aleda/Desktop/Nueva carpeta/Little_Daffy/app/src/main/res/layout/popular_food_row_item.xml" value="0.21875" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/drawable/boton_redondo.xml" value="0.11319444444444444" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/drawable/categoria_selected.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/drawable/icon_whatsapp.xml" value="0.11319444444444444" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/drawable/shape.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_adoptados.xml" value="0.14" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_encontrados.xml" value="0.1" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_logros.xml" value="0.14" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_maps.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_organizaciones.xml" value="0.12228260869565218" />
-        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_ver_organizacion.xml" value="0.5" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/activity_ver_organizacion.xml" value="0.2" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/boton_redondo.xml" value="0.1" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/card_adoptados.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/card_categoria.xml" value="0.75" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/card_encontrados.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/card_lista_inicial.xml" value="0.22" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/card_organizaciones.xml" value="0.12228260869565218" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/dashboard_fragment.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/drawer_menu.xml" value="0.17391304347826086" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/fragment_adoptados.xml" value="0.12228260869565218" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/fragment_dashboard.xml" value="0.20018115942028986" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/fragment_encontrados.xml" value="0.12228260869565218" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/fragment_logros.xml" value="0.22" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/fragment_my_profile.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/fragment_organizaciones.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/item_option.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/ferna/OneDrive/Escritorio/Nueva carpeta/Little_Daffy/app/src/main/res/layout/progress_bar.xml" value="0.12" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/drawable/btn_bg.xml" value="0.15197368421052632" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/drawable/ic_marcador_foreground.xml" value="0.15197368421052632" />
         <entry key="..\:/Users/ferna/OneDrive/Escritorio/codigos/DaffyRemoto/Little_Daffy/app/src/main/res/drawable/icon_reloj.xml" value="0.23697916666666666" />

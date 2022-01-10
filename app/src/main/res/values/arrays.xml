@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_activityScreenTitles">
+
+        <item></item>
+        <item>Inicio</item>
+        <item>Mi Perfil</item>
+        <item>Organizaciones</item>
+        <item>Mis Mascotas</item>
+        <item>Logros</item>
+        <item/>
+        <item>Salir</item>
+    </string-array>
+
+    <array name="id_activityScreenIcons">
+
+        <item>@drawable/icon_back</item>
+        <item>@drawable/icon_reloj</item>
+        <item>@drawable/icon_reloj</item>
+        <item>@drawable/icon_reloj</item>
+        <item>@drawable/icon_reloj</item>
+        <item>@drawable/icon_reloj</item>
+        <item>0</item>
+        <item>@drawable/icon_reloj</item>
+
+    </array>
+
+</resources>

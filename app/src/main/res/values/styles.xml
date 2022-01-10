@@ -17,4 +17,10 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/primary</item>
+        <item name="android:textColorSecondary">@color/primary</item>
+        <item name="actionMenuTextColor">@color/primary</item>
+    </style>
+
 </resources>
